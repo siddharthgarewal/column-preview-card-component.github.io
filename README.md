@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/siddharthgarewal/cardComponent.github.io]
-- Live Site URL: [https://siddharthgarewal.github.io/cardComponent.github.io/]
+- Solution URL: [https://github.com/siddharthgarewal/column-preview-card-component.github.io]
+- Live Site URL: [https://siddharthgarewal.github.io/column-preview-card-component.github.io/]
 
 ## My process
 
