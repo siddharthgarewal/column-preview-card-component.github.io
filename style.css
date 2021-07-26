@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    padding: 5rem 0;
+    justify-content: center;
+}
+
+section {
+    padding: 45px;
+    width: inherit;
+}
+
+img {
+    margin-bottom: 25px;
+}
+
+p {
+    line-height: 1.6;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 2rem;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 33px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.btn {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin-top: 5rem;
+  }
+  
+.btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    font-size: 0.75rem;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(223, 141, 141);
+    margin-bottom: 0;
+}
+
+.attribution a { 
+    color: hsl(228, 71%, 61%); 
+}
+
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    section {
+        width: auto;
+    }
+
+    .sedans {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
